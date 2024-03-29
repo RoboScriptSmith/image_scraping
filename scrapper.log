@@ -42,3 +42,243 @@ INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "GET /static/css/main.css H
 INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "GET /static/css/style.css HTTP/1.1" 200 -
 INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:16] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.3:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:03:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:03:15] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:03:15] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:03:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:03:22] "POST /review HTTP/1.1" 200 -
+INFO:root:bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:03:39] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.3:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:05:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:05:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:05:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:05:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:05:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:05:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:05:22] "POST /review HTTP/1.1" 200 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:05:42] "POST /review HTTP/1.1" 200 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:05:42] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:10:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:10:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:10:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:10:14] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.3:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:12:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:12:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:12:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:12:35] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.3:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:16:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:16:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:16:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:16:11] "POST /review HTTP/1.1" 200 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:16:11] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:16:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:16:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:16:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:16:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:16:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:16:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:16:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:16:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:16:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:172.18.0.2 - - [27/Mar/2024 08:17:00] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.3:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:28:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:28:48] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:28:48] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:28:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:28:55] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.3:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:29:33] "POST /review HTTP/1.1" 200 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:29:39] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.3:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:31:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:31:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:31:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+ERROR:app:Exception on /review [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 873, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 892, in finalize_request
+    response = self.make_response(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1201, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a OperationFailure.
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:31:53] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.3:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:38:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:38:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:38:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+ERROR:app:Exception on /review [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 873, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 892, in finalize_request
+    response = self.make_response(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1201, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a OperationFailure.
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:38:59] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:39:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:39:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:39:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+ERROR:app:Exception on /review [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 873, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 892, in finalize_request
+    response = self.make_response(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1201, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a OperationFailure.
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:39:31] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.3:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:41:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:41:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:41:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:41:07] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.3:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:53:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:53:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:53:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+ERROR:app:Exception on /review [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 873, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 892, in finalize_request
+    response = self.make_response(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1201, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a OperationFailure.
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:53:29] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.3:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:56:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:56:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:56:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+ERROR:app:Exception on /review [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 873, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 892, in finalize_request
+    response = self.make_response(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1201, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a OperationFailure.
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:56:11] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.3:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:57:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:57:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:57:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+ERROR:app:Exception on /review [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 873, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 892, in finalize_request
+    response = self.make_response(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1201, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a OperationFailure.
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 07:57:43] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.3:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 08:14:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 08:14:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 08:14:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:list assignment index out of range
+ERROR:app:Exception on /review [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 873, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 892, in finalize_request
+    response = self.make_response(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1201, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a IndexError.
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 08:14:33] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.18.0.45 - - [29/Mar/2024 08:14:39] "POST /review HTTP/1.1" 200 -
